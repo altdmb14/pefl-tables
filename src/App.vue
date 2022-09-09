@@ -1,16 +1,16 @@
 <template>
 <div>
-  <h1>Hello vue</h1>
 <!--  <my-user v-for='user in users'
   :name='user.name'
   :description='user.description'
   :is-active='user.isActive' />
 
   <loginForm />
-  <myTable />
--->
-
 <bootStrapTable />
+
+-->
+  <myTable />
+
 
 
 </div>

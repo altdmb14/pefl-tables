@@ -2,9 +2,9 @@
 <div>
     <b-container label="Label">
     <b-row align-v="start">
-        <b-col sm="4">1 из 3</b-col>
-        <b-col sm="4">2 из 3</b-col>
-        <b-col sm="4">3 из 3</b-col>
+        <b-col>
+        <b-table striped hover :items="items"></b-table>
+        </b-col>
     </b-row>
     </b-container>
 </div>
@@ -14,9 +14,10 @@
 export default {
     data() {
         return {
+            fields: ['Игрок', 'first_name', 'last_name'],
             email: '',
             items: [
-                {age: 41, first_name: 'Abc', last_name: 'Macdonald' }
+                {Игрок: 41, first_name: 'Abc', last_name: 'Macdonald' }
             ]
         }
     },
